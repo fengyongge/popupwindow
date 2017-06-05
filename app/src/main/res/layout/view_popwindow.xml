@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/llItem"
+        android:layout_width="225dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:background="@drawable/product_popwindow"
+
+        >
+
+        <TextView
+            android:id="@+id/tvQuery"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="查看商品详情"
+            android:textSize="14sp"
+            android:textColor="#333333"
+            android:gravity="center|left"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#dddddd"
+            />
+
+        <TextView
+            android:id="@+id/tvShare"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="分享商品"
+            android:textSize="14sp"
+            android:textColor="#333333"
+            android:gravity="center|left"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#dddddd"
+            />
+
+        <TextView
+            android:id="@+id/tvOrder"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="立即下单"
+            android:textSize="14sp"
+            android:textColor="#333333"
+            android:gravity="center|left"
+            />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

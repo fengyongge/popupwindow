@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlAllView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+ >
+
+    <LinearLayout
+        android:id="@+id/llTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@color/top_color"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <RelativeLayout
+                android:id="@+id/rlLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:paddingRight="10dp">
+
+                <TextView
+                    android:id="@+id/left_text"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/back_white" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tvTopTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:ellipsize="end"
+                android:maxEms="10"
+                android:singleLine="true"
+                android:textSize="20sp" />
+
+            <RelativeLayout
+                android:id="@+id/right_RL"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tvSearch"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:padding="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/search_img"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:visibility="gone"
+                    />
+
+                <TextView
+                    android:id="@+id/tvRightText"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:padding="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_margin="5dp"
+                    android:layout_toRightOf="@id/tvSearch"
+                    android:background="@drawable/more"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="18sp" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <View
+        android:id="@+id/title_line"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/xian" />
+
+    <LinearLayout
+        android:id="@+id/llChose"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btAll"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:paddingRight="10dp"
+            android:layout_margin="3dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:text="全部"
+            android:drawableRight="@drawable/btn_goods_rb"
+            android:background="@drawable/selector_btn_grey_blue"
+            android:textColor="@color/selector_text_gray_white"
+            android:textSize="12sp" />
+
+
+
+        <Button
+            android:id="@+id/btZone"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:background="@drawable/selector_btn_grey_blue"
+            android:textColor="@color/selector_text_gray_white"
+            android:drawableRight="@drawable/btn_goods_rb"
+            android:gravity="center"
+            android:paddingRight="10dp"
+            android:text="地区"
+            android:layout_margin="3dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="12sp" />
+
+
+
+        <Button
+            android:id="@+id/btType"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:paddingRight="10dp"
+            android:layout_margin="3dp"
+            android:text="类型"
+            android:background="@drawable/selector_btn_grey_blue"
+            android:drawableRight="@drawable/btn_goods_rb"
+            android:textColor="@color/selector_text_gray_white"
+            android:textSize="12sp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            />
+
+
+
+        <Button
+            android:id="@+id/btStatue"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:paddingRight="10dp"
+            android:text="状态"
+            android:layout_margin="3dp"
+            android:drawableRight="@drawable/btn_goods_rb"
+            android:background="@drawable/selector_btn_grey_blue"
+            android:textColor="@color/selector_text_gray_white"
+            android:textSize="12sp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

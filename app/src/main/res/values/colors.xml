@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="top_color">#F1F1F1</color>
+    <color name="white">#ffffff</color>
+    <color name="xian">#EBEBEB</color>
+    <color name="blue">#6d9eed</color>
+    <color name="deep_grey">#646464</color>
+
+
+</resources>
